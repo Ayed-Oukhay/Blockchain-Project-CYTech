@@ -1,0 +1,21 @@
+.content-center {
+  padding-top: 100px;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+body {
+  background-color: rgb(5, 5, 29);
+}
+
+h1, h3 {
+  color: aqua;
+}
+
+label {
+  color: #a08dc5;
+}
+
+small {
+  color: #ddd6d6;
+}
