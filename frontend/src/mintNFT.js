@@ -46,6 +46,11 @@ function App() {
           </div>
           <br />
           <div class="form-group">
+            <label for="price">Price (in Tez) *</label><br />
+            <input type="number" class="form-control" id="price" placeholder="Enter your price here." />
+          </div>
+          <br />
+          <div class="form-group">
             <label for="contractadd">Smart contract address</label>
             <input type="text" class="form-control" id="contractadd" value="tx0......" disabled />
           </div>
