@@ -1,8 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import './mintNFT.css';
+import './MintNFT.css';
 import React, { useState, useEffect } from "react";
 
-function App() {
+function Mint() {
+
+  // * --------- Handling the image upload ---------
   const [images, setImages] = useState([]);
   const [imageURLs, setImageURLs] = useState([]);
 
@@ -19,6 +21,10 @@ function App() {
     const reader = new window.FileReader();
     reader.readAsArrayBuffer(file);
   }
+  // * ---------------------------------------------
+
+  // * ---------- Authenticating user when they click submit ----------
+  // * ----------------------------------------------------------------
 
   return (
     <div className="wrapper">
