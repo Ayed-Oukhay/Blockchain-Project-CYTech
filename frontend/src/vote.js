@@ -1,8 +1,36 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './vote.css';
-import React, { useState, useEffect } from "react";
+// import { BeaconWallet } from "@taquito/beacon-wallet";
+// import { TezosToolkit } from "@taquito/taquito";
+// import { CONTRACT_ADDRESS, RPC_URL } from "./utils/env";
+// import { useEffect, useState, useRef } from "react";
 
 function Vote() {
+    // --- Initialising a Tezos instance on the Ghostnet ---
+    // const Tezos = new TezosToolkit(RPC_URL);
+
+    // --- Authenticating the user on page load ---
+    // const user_wallet = useRef(null);  // * -> This will contain the address of the connected user's wallet later on
+    // const [message, setMessage] = useState(""); // * -> Keeps track of messages to show to users within the dApp
+
+    // * Create a ConnectWallet Function
+    // const connectWallet = async () => {
+    //     setMessage("");
+    //     try {
+    //         const options = {
+    //             name: "DOscars",
+    //             network: { type: "ghostnet" },
+    //         };
+    //         const wallet = new BeaconWallet(options);
+    //         user_wallet.current = wallet;
+    //         await wallet.requestPermissions();
+    //         Tezos.setProvider({ wallet: user_wallet.current });
+    //     } catch (error) {
+    //         console.error(error);
+    //         setMessage(error.message);
+    //     }
+    // };
+
     return (
         <div className="wrapper">
 
