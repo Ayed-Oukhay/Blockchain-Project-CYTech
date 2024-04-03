@@ -69,4 +69,4 @@ function Mint() {
   );
 }
 
-export default App;
+export default Mint;

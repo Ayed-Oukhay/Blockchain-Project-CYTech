@@ -51,6 +51,7 @@ def test():
         3: sp.record(name="Emma Stone", movie="Little things", votes=0),
         4: sp.record(name="Leonardo DeCaprio", movie="Flower Moon", votes=0),
         5: sp.record(name="Timothée Chalamet", movie="Dune", votes=0),
+        6: sp.record(name="Rebecca ", movie="Dune", votes=0),
     }
 
     scenario = sp.test_scenario("Test", main)
@@ -73,4 +74,4 @@ def test():
     scenario.verify(contract.data.candidates[4].votes == 1)
 
     # --- Trying to vote for an actor that's not on the list ---
-    contract.vote(_sender=olive, candidateId=6, _valid=False, _exception="CANDIDATE NOT FOUND!!")
+    contract.vote(_sender=olive, candidateId=7, _valid=False, _exception="CANDIDATE NOT FOUND!!")

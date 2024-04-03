@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import Mint from './MintNFT';
-import App from './vote';
+import Vote from './vote';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Mint />
-    <App />
+    {/* <Mint /> */}
+    <Vote />
   </React.StrictMode>
 );
