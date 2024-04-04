@@ -24,7 +24,7 @@ def main():
             assert self.data.candidates.contains(args.candidateId), "CANDIDATE NOT FOUND!!"
             # -> Increasing their vote count
             self.data.candidates[args.candidateId].votes += 1
-            # -> Adding the voter (calelr of the function) to the list of people who already voted
+            # -> Adding the voter (caller of the function) to the list of people who already voted
             self.data.votersAddresses.add(sp.sender)
 
         @sp.entry_point
