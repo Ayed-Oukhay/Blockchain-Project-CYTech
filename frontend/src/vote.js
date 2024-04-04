@@ -30,6 +30,7 @@ function Vote() {
             setMessage(error.message);
         }
     };
+    // !! ERROR HERE
 
     return (
         <div className="wrapper">
