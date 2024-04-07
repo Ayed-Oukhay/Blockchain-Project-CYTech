@@ -55,6 +55,8 @@ You can find its code in ./contract
 
 ![app-page1](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/2445d271-ae82-4669-b62d-c629b12956c1)
 
+![CreatinganNFT](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/a3fe7cd8-5416-41f0-a067-3368cd73dabd)
+
 ![app-page-2](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/c6a5e36f-6d0e-4530-8dbc-0f4aa9234beb)
 
 ![added-wallet-connect](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/c346c938-417e-4e09-a815-c4d5269f879d)
