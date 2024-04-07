@@ -33,6 +33,7 @@ You can find its code in ./contract
 - Creating the smart contracts `NFT smart contract` and `Vote smart contract`
 
 ![NFTsmartcontract](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/230d1c0b-4714-4fa1-bf27-7c5be22719d8)
+
 ![Votesmartcontract](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/5ae93c67-859c-47d9-95da-414824af901e)
 
 - Testing the Vote Smart contract:
