@@ -20,7 +20,9 @@ Each participant will be allowed to cast a single vote for their preferred Pokem
 To make things more simple, the smart contract is already deployed outside the project, we then just call it and interact with it using its address and the `taquito` library.
 You can find its code in ./contract
 
-## Functions to be added:
+## Things to improve / Functions to be added:
+- Connecting the app to `IPFS (Pinata)` to store the NFTs metadata (exp image)
+- Implementing the `FA2` standard instead of hard coding everything in the NFT smart contract from scratch
 - Adding a time limit for voting
 - Announcing that the time for voting is up
 - Announcing a winner
