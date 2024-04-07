@@ -1,5 +1,3 @@
-![NFTsmartcontract](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/0481b3bd-29f9-40fe-a78e-2d648fc59275)# Blockchain-Project-CYTech
-
 ## Description:
 This project is a Decentralized Application (DApp) allowing users to create Pokemon NFTs then vote for their favorite one created by other users. 
 Each participant will be allowed to cast a single vote for their preferred Pokemon.
@@ -53,7 +51,7 @@ You can find its code in ./contract
 
 ![templewallet](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/e7d85184-693b-44be-bead-01a67c5ff477)
 
-** - UI screenshots: **
+## UI screenshots:
 
 ![app-page1](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/2445d271-ae82-4669-b62d-c629b12956c1)
 
