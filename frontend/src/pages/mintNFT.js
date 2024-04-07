@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import './MintNFT.css';
+import '../style/mintNFT.css';
 import React, { useState, useEffect } from "react";
 
 function Mint() {
@@ -28,8 +28,9 @@ function Mint() {
 
   return (
     <div className="wrapper">
+     <center><h1>WELCOME TO THE FIRST POKEMON NFT VOTING SYST</h1></center>
       <div className="content-center">
-        <center><h1>Easily create an NFT on the Tezos Blockchain ♾️</h1></center>
+        <center><h1>STEP 1: Easily create an NFT on the Tezos Blockchain ♾️</h1></center>
         <center><h3> Just fill the form and submit 😉</h3></center>
         <br />
         <form>

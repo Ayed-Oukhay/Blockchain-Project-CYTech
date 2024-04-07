@@ -36,8 +36,8 @@ def main():
         def burn(self):
             #self.data.owner = new_owner
 
-        @sp.entrypoint
-        def default(self):
+        #@sp.entrypoint
+        #def default(self):
             
 
 @sp.add_test()
