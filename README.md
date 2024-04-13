@@ -10,8 +10,8 @@ Each participant will be allowed to cast a single vote for their preferred Pokem
 ## Tools:
 - `SmartPy`
 - `React`
-- `Temple Wallet`
-- `Metamask`
+- `Temple Wallet` (ERROR while implementing the code to link the project with Temple)
+- `Metamask` (Trying to use a snap of the Tezos Blockchain on Metamask to connect the wallet)
 ### Libraries:
 - `Taquito library`: allows us to interact with the smart contract deployed on the blockchain
 - `Beacon Wallet`: allows us to connect and interact with whatever wallet we’re using
@@ -21,6 +21,7 @@ To make things more simple, the smart contract is already deployed outside the p
 You can find its code in ./contract
 
 ## Things to improve / Functions to be added:
+- Completing the Temple Wallet connection
 - Connecting the app to `IPFS (Pinata)` to store the NFTs metadata (exp image)
 - Implementing the `FA2` standard instead of hard coding everything in the NFT smart contract from scratch
 - Adding a time limit for voting
@@ -32,17 +33,19 @@ You can find its code in ./contract
 
 - Creating the smart contracts `NFT smart contract` and `Vote smart contract`
 
-![NFTsmartcontract](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/230d1c0b-4714-4fa1-bf27-7c5be22719d8)
+![NFTContract](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/a67b558d-5304-4f59-b1d9-d9d1c4c0a0e7)
 
-![Votesmartcontract](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/5ae93c67-859c-47d9-95da-414824af901e)
+![VoteContract](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/70af273e-7c82-42d9-9aa9-f0ffebadb9d9)
 
 - Testing the Vote Smart contract:
 
-![Runningthesmartcontract](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/e6dff8ec-23f0-4559-ae10-d9fe07d71652)
+![Runningthesmartcontract](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/5195293a-7b3d-4a1d-bfbe-f6197950d3ac)
 
-![Runningthesmartcontract2](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/c01f5332-31c7-4419-9687-84c880b4989f)
+![Runningthesmartcontract2](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/e992a417-f22c-4639-9047-448bb4f37c82)
 
-![Runningthesmartcontract3](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/c80cd5cc-370a-42f8-8136-1b3f9d41e0ef)
+![Runningthesmartcontract3](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/77bab314-dfcf-485c-9276-908a62fe7c5a)
+
+![Runningthesmartcontract4](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/0bee2f72-893b-4d9e-82d3-819ae1106021)
 
 - Trying to deploy the Vote smart contract (SmartPy ERROR!!)
   
@@ -63,6 +66,8 @@ You can find its code in ./contract
 ![app-page-2](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/c6a5e36f-6d0e-4530-8dbc-0f4aa9234beb)
 
 ![added-wallet-connect](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/c346c938-417e-4e09-a815-c4d5269f879d)
+
+### Testing connection with Metamask (conncetion to the wallet working but not on the Tezos Blockchain)
 
 ![connecting-wallet](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/8fb767b3-74bf-43dc-b8e1-82755c0d8cd6)
 
