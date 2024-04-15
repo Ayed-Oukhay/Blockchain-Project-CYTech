@@ -67,7 +67,11 @@ You can find its code in ./contract
 
 ![added-wallet-connect](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/c346c938-417e-4e09-a815-c4d5269f879d)
 
-### Testing connection with Metamask (conncetion to the wallet working but not on the Tezos Blockchain)
+### Trying to implement Authentication to the app on the Tezos Blockchain using the Beacon wallet (ERROR) :
+
+![TezosWalletIntegrationError](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/7183ad5d-5335-4a91-9e65-64d54702df47)
+
+### Testing connection with Metamask (connection to the wallet working but not on the Tezos Blockchain) :
 
 ![connecting-wallet](https://github.com/Ayed-Oukhay/Blockchain-Project-CYTech/assets/65503307/8fb767b3-74bf-43dc-b8e1-82755c0d8cd6)
 
